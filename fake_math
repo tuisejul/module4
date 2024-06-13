@@ -1,0 +1,8 @@
+def divide(x, y):
+    try:
+        res = x / y
+    except ZeroDivisionError:
+        res = 'Ошибка'
+    print(res)
+
+divide(2, 0)
