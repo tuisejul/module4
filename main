@@ -1,0 +1,4 @@
+import true_math
+print(true_math.divide)
+import fake_math
+print(fake_math.divide)
