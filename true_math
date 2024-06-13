@@ -1,0 +1,9 @@
+from math import inf
+def divide(x, y):
+    try:
+        res = x / y
+    except ZeroDivisionError:
+        res = inf
+    print(res)
+
+divide(10, 5)
